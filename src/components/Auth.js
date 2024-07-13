@@ -36,7 +36,7 @@ const Auth = ({ onAuth }) => {
 
     return (
         <Form onFinish={handleSubmit} style={formStyle}>
-            <div style={{textAlign: 'center', fontSize: '24px', fontWeight: 500, marginBottom: '24px'}}>
+            <div style={{textAlign: 'center', fontSize: '24px', fontWeight: 500, marginBottom: '24px', color:'#fff'}}>
                 Логин
             </div>
             <Form.Item name="username" rules={[{ required: true, message: 'Введите имя пользователя!' }]}>
